@@ -34,8 +34,9 @@ window.addEventListener('DOMContentLoaded', () => {
             }
 
             // Codificamos el mensaje para URL
-            const whatsappLink = "https://wa.me/1165804851?text=" + encodeURIComponent(userMessage);
+            const whatsappLink = "https://wa.me/+5491165804851?text=" + encodeURIComponent(userMessage);
             window.open(whatsappLink, '_blank');
         });
     });
 });
+
